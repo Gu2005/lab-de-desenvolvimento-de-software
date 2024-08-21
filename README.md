@@ -6,7 +6,6 @@ Este repositório contém os trabalhos em grupo realizados para a disciplina "La
 
 - Ana Luiza Rezende
 - Gustavo Costa Gabrich
-- Luidi Cadete Silva 
 
 ## Professor
 
