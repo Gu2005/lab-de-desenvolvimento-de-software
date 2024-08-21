@@ -79,3 +79,8 @@ Critérios de Aceitação:
 - O sistema deve garantir a segurança e confidencialidade das senhas.
 
 Essas histórias de usuário ajudam a definir os requisitos e comportamentos esperados para o sistema de matrículas, garantindo que ele atenda às necessidades de alunos, professores e administradores. 
+
+# Diagrama de Caso de Uso v.1
+
+![Diagrama Caso de Uso v.1](..\Laboratórios\Lab01\Lab01S01\DiagramaCasoDeUsoV1.jpg)
+
