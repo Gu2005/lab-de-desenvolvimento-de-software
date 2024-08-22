@@ -1,6 +1,7 @@
 <?php
 
 require_once 'Usuario.php';
+require_once 'Curso.php'; // Incluindo a classe Curso
 
 class Secretario extends Usuario {
     private $idSecretario;
@@ -10,16 +11,20 @@ class Secretario extends Usuario {
         $this->idSecretario = $idSecretario;
     }
 
-    public function verificarDisciplinasAtivas() {
-        // será implemetado lógica de verificação de disciplinas ativas
+    public function verificarDisciplinasAtivas($curso) {
+        // Obter todas as disciplinas do curso
+        $disciplinas = $curso->visualizarDisciplinas();
+        // Lógica para verificar quais disciplinas estão ativas
     }
 
-    public function acessarListaAlunosMatriculados() {
-        // será implemetado lógica para acessar a lista de alunos matriculados
+    public function acessarListaAlunosMatriculados($disciplina) {
+        return $disciplina->visualizarAlunosMatriculados();
     }
 
-    public function visualizarDisciplinasCanceladas() {
-        // será implemetado lógica para visualizar disciplinas canceladas
+    public function visualizarDisciplinasCanceladas($curso) {
+        // Lógica para visualizar disciplinas canceladas no curso
+        $disciplinas = $curso->visualizarDisciplinas();
+        // Filtrar e visualizar disciplinas canceladas
     }
 }
 

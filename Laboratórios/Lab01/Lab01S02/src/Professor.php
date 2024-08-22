@@ -1,6 +1,7 @@
 <?php
 
 require_once 'Usuario.php';
+require_once 'Disciplina.php'; // Incluindo a classe Disciplina
 
 class Professor extends Usuario {
     private $idProfessor;
@@ -10,12 +11,14 @@ class Professor extends Usuario {
         $this->idProfessor = $idProfessor;
     }
 
-    public function visualizarAlunosMatriculados() {
-        // será implemetado lógica para visualizar alunos matriculados
+    public function visualizarDisciplinas($curso) {
+        // Obter todas as disciplinas do curso
+        $disciplinas = $curso->visualizarDisciplinas();
+        // Lógica para visualizar as disciplinas
     }
 
-    public function acessarListaDeAlunosInscritos() {
-        // será implemetado lógica para acessar a lista de alunos inscritos
+    public function acessarListaDeAlunosInscritos($disciplina) {
+        return $disciplina->visualizarAlunosMatriculados();
     }
 }
 
