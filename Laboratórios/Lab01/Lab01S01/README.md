@@ -82,5 +82,5 @@ Essas histórias de usuário ajudam a definir os requisitos e comportamentos esp
 
 # Diagrama de Caso de Uso v.1
 
-![Diagrama Caso de Uso v.1](../Lab01S01/DiagramaCasoDeUsoV1.jpg)
+![Diagrama Caso de Uso v.1](../Lab01S01/image/DiagramaCasoDeUsoV1.jpg)
 
