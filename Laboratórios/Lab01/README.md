@@ -14,10 +14,10 @@ O projeto será desenvolvido em PHP e seguirá um processo de desenvolvimento es
 
 ## Divisão das Sprints
 
-* [Sprint 01](../Lab01S01/)
+* [Sprint 01](../Lab01/Lab01S01/)
 
-* [Sprint 02](../Lab01S02/)
+* [Sprint 02](../Lab01/Lab01S02/)
 
-* [Sprint 03](../Lab01S03/)
+* [Sprint 03](../Lab01/Lab01S03/)
 
 
