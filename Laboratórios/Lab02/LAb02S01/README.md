@@ -36,17 +36,17 @@
 
 ## Diagrama de Caso de Uso
 
-![Diagrama Caso de Uso .png](../LAb02S01/imagens/Diagrama_Caso%20de%20Uso.png)
+![Diagrama Caso de Uso](../LAb02S01/arquivos/Diagrama_Caso%20de%20Uso.png)
 
 ## Diagrama de Classes
 
-![Diagrama de Classes .png](../LAb02S01/imagens/Diagrama_Classes.png)
+![Diagrama de Classes](../LAb02S01/arquivos/Diagrama_Classes.png)
 
 ## Diagrama de Pacotes (Visão Lógica).
 
-![Diagrama de Pacotes MVC .png](../LAb02S01/imagens/Diagrama_Pacotes%20MVC.png)
+![Diagrama de Pacotes MVC](../LAb02S01/arquivos/Diagrama_Pacotes%20MVC.png)
 
 
 ## Diagramas.Drawio
 
-![Diagramas .drawio](../LAb02S01/arquivos/Diagramas.drawio)
+![Diagramas](../LAb02S01/arquivos/Diagramas.drawio)
