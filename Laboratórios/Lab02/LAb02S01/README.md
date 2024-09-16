@@ -40,9 +40,13 @@
 
 ## Diagrama de Classes
 
-![Diagrama Caso de Uso .png](../LAb02S01/imagens/Diagrama_Classes.png)
+![Diagrama de Classes .png](../LAb02S01/imagens/Diagrama_Classes.png)
 
 ## Diagrama de Pacotes (Visão Lógica).
 
+![Diagrama de Pacotes MVC .png](../LAb02S01/imagens/Diagrama_Pacotes%20MVC.png)
+
+
 ## Diagramas.Drawio
 
+![Diagramas .drawio](../LAb02S01/arquivos/Diagramas.drawio)
