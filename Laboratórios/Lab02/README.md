@@ -12,5 +12,7 @@ O projeto será desenvolvido em Java e seguirá um processo de desenvolvimento e
 
 ## Divisão das Sprints
 
-* [Sprint 01](../Lab02/Lab02S01/)
+- [Sprint 01](../Lab02/Lab02S01/)
+
+- [Sprint 02](../Lab02/Lab02S02/)
 
