@@ -10,4 +10,6 @@
 
 ## [Laboratório 02](../Laboratórios/Lab02/)
 
-- [Sprint 01](../Laboratórios/Lab02/LAb02S01/)
+- [Sprint 01](../Laboratórios/Lab02/Lab02S01/)
+
+- [Sprint 02](../Laboratórios/Lab02/Lab02S02/)
