@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial - Sistema de Aluguel de Carros</title>
+    <link rel="stylesheet" href="../view/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Aluguel de Carros</h1>
+            <p>Gerencie seus pedidos de forma simples e eficiente!</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a th:href="@{/pedidos/criar}">Criar Novo Pedido</a></li>
+                <li><a th:href="@{/pedidos/listar}">Listar Pedidos</a></li>
+                <li><a th:href="@{/pedidos/status}">Status do Pedido</a></li>
+                <li><a th:href="@{/clientes/cadastrar}">Cadastrar Cliente</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

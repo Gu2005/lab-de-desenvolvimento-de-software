@@ -1,0 +1,23 @@
+package codigo.model;
+
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+public class Cliente {
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String nome;
+    private String cpf;
+    private String rg;
+    private String endereco;
+    private String profissao;
+    
+    @ElementCollection
+    private List<String> empregadores; // Até 3 empregadores
+    private double rendimento;
+
+    // Getters e Setters
+}

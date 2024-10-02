@@ -1,0 +1,158 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilos do menu de navegação */
+nav {
+    margin: 100px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Muda a direção da lista para vertical */
+    align-items: center;    /* Centraliza os itens */
+    gap: 50px;             /* Espaçamento vertical entre os itens */
+}
+
+nav ul li {
+    display: block; /* Garante que os itens da lista ocupem a linha inteira */
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #2a9d8f;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Faz o link ocupar toda a largura do item da lista */
+}
+
+nav ul li a:hover {
+    background-color: #264653;
+}
+
+/* Estilo de Formulários */
+form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #264653;
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+th {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para botões grandes */
+button {
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #264653;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background-color: #264653;
+}

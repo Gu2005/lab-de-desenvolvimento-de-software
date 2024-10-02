@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Status de Pedido</title>
+    <link rel="stylesheet" href="../view/style.css">
+</head>
+<body>
+    <header>
+        <h1>Status do Pedido</h1>
+        <a th:href="@{/}">Voltar para Home</a>
+    </header>
+
+    <form action="/pedidos/status" method="get">
+        <label for="idPedido">ID do Pedido:</label>
+        <input type="text" id="idPedido" name="idPedido" required>
+        <button type="submit">Ver Status</button>
+    </form>
+
+    <div th:if="${pedido != null}">
+        <p>Cliente: <span th:text="${pedido.cliente.nome}"></span></p>
+        <p>Carro: <span th:text="${pedido.carro.modelo}"></span></p>
+        <p>Status: <span th:text="${pedido.status}"></span></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+package com.seu_projeto.service;
+
+import codigo.model.Pedido;
+import codigorepository.PedidoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class PedidoService {
+
+    @Autowired
+    private PedidoRepository pedidoRepository;
+
+    public Pedido criarPedido(Pedido pedido) {
+        pedido.setStatus("pendente");
+        return pedidoRepository.save(pedido);
+    }
+
+    public List<Pedido> listarPedidosPorCliente(Long clienteId) {
+        return pedidoRepository.findByClienteId(clienteId);
+    }
+
+    public Pedido buscarPorId(Long id) {
+        return pedidoRepository.findById(id).orElse(null);
+    }
+}

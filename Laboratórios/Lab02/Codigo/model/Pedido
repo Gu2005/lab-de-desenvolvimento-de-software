@@ -1,0 +1,23 @@
+package codigo.model;
+
+import javax.persistence.*;
+import java.time.LocalDate;
+
+@Entity
+public class Pedido {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @ManyToOne
+    private Cliente cliente;
+
+    @ManyToOne
+    private Carro carro;
+
+    private LocalDate dataPedido;
+    private String status;  // Status pode ser 'pendente', 'aprovado', 'cancelado'
+
+    // Getters e Setters
+}

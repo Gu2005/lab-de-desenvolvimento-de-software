@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Listar Pedidos - Sistema de Aluguel de Carros</title>
+    <link rel="stylesheet" href="../view/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Listar Pedidos</h1>
+            <p>Abaixo está a lista de pedidos realizados.</p>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Cliente</th>
+                    <th>Data do Pedido</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="pedido : ${pedidos}">
+                    <td th:text="${pedido.id}"></td>
+                    <td th:text="${pedido.cliente.nome}"></td>
+                    <td th:text="${pedido.data}"></td>
+                    <td th:text="${pedido.status}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a class="button" th:href="@{/}">Voltar para a Página Inicial</a>
+    </div>
+</body>
+</html>
