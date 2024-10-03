@@ -22,16 +22,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr th:each="pedido : ${pedidos}">
-                    <td th:text="${pedido.id}"></td>
-                    <td th:text="${pedido.cliente.nome}"></td>
-                    <td th:text="${pedido.data}"></td>
-                    <td th:text="${pedido.status}"></td>
+                <tr each="pedido : ${pedidos}">
+                    <td text="${pedido.id}"></td>
+                    <td text="${pedido.cliente.nome}"></td>
+                    <td text="${pedido.data}"></td>
+                    <td text="${pedido.status}"></td>
                 </tr>
             </tbody>
         </table>
 
-        <a class="button" th:href="@{/}">Voltar para a Página Inicial</a>
+        <a class="button" href="index.html">Voltar para a Página Inicial</a>
     </div>
 </body>
 </html>

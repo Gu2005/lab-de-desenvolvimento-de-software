@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="../view/style.css">
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>Criar Novo Pedido</h1>
-        <a th:href="@{/}">Voltar para Home</a>
     </header>
 
     <form action="/pedidos/criar" method="post">
@@ -21,4 +21,16 @@
         <label for="dataInicio">Data de Início:</label>
         <input type="date" id="dataInicio" name="dataInicio" required>
         
-       
+        <label for="dataFim">Data de Fim:</label>
+        <input type="date" id="dataFim" name="dataFim" required>
+        
+        <button type="submit">Criar Pedido</button>
+    </form>
+
+    <a class="button" href="index.html">Voltar para a Página Inicial</a>
+
+</div>
+</body>
+</html>
+
+
