@@ -1,4 +1,4 @@
-package com.seu_projeto.service;
+package codigo.service;
 
 import codigo.model.Pedido;
 import codigorepository.PedidoRepository;
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+Service
 public class PedidoService {
 
-    @Autowired
+    Autowired
     private PedidoRepository pedidoRepository;
 
     public Pedido criarPedido(Pedido pedido) {

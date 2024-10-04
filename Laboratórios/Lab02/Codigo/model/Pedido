@@ -3,17 +3,17 @@ package codigo.model;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@Entity
+Entity
 public class Pedido {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Id
+    GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    ManyToOne
     private Cliente cliente;
 
-    @ManyToOne
+    ManyToOne
     private Carro carro;
 
     private LocalDate dataPedido;
