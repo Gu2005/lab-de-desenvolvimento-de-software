@@ -1,0 +1,41 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class ConexaoMySQL {
+
+    public static void main(String[] args) {
+        // Dados para conectar ao banco de dados
+        String jdbcURL = "jdbc:mysql://localhost:3306/nome_do_banco";
+        String username = "root";
+        String password = "senha";
+
+        try {
+            // Estabelecer conexão com o banco de dados
+            Connection connection = DriverManager.getConnection(jdbcURL, username, password);
+
+            System.out.println("Conexão com o banco de dados MySQL foi bem-sucedida!");
+
+            // Criar uma consulta SQL
+            String sql = "SELECT * FROM tabela_exemplo";
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            // Iterar pelos resultados
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                String nome = resultSet.getString("nome");
+
+                System.out.println("ID: " + id + ", Nome: " + nome);
+            }
+
+            // Fechar a conexão
+            connection.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
