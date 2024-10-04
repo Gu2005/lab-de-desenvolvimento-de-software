@@ -16,3 +16,5 @@ O projeto será desenvolvido em Java e seguirá um processo de desenvolvimento e
 
 - [Sprint 02](../Lab02/Lab02S02/)
 
+- [Sprint 02](../Lab02/Lab02S03/)
+

@@ -1,0 +1,44 @@
+package codigo.controller;
+
+import codigo.model.Pedido;
+import codigo.service.PedidoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+Controller
+RequestMapping("/pedidos")
+public class PedidoController {
+
+    Autowired
+    private PedidoService pedidoService;
+
+    GetMapping("/novo")
+    public String novoPedidoForm(Model model) {
+        model.addAttribute("pedido", new Pedido());
+        return "novo-pedido";
+    }
+
+    PostMapping("/criar")
+    public String criarPedido(ModelAttribute Pedido pedido) {
+        pedidoService.criarPedido(pedido);
+        return "redirect:/pedidos/status/" + pedido.getId();
+    }
+
+    GetMapping("/status/{id}")
+    public String statusPedido(PathVariable Long id, Model model) {
+        Pedido pedido = pedidoService.buscarPorId(id);
+        model.addAttribute("pedido", pedido);
+        return "status-pedido";
+    }
+
+    GetMapping("/cliente/{clienteId}")
+    public String listarPedidosPorCliente(PathVariable Long clienteId, Model model) {
+        List<Pedido> pedidos = pedidoService.listarPedidosPorCliente(clienteId);
+        model.addAttribute("pedidos", pedidos);
+        return "listar-pedidos";
+    }
+}
