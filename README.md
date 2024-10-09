@@ -20,4 +20,6 @@ Este repositório contém os trabalhos em grupo realizados para a disciplina "La
 
 - João Paulo Aramuni
 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-informational?style=flat&logo=github&logoColor=white&color=a8b0ff)](https://github.com/joaopauloaramuni)
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>
