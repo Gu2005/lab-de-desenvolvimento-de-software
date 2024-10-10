@@ -1,6 +1,12 @@
-# Histórias de Usuários
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=header"/>
 
-## História de Usuário 1: Matrícula em Disciplinas
+<h1 align="center">
+    <br> Sprint 01
+</h1>
+
+## Histórias de Usuários
+
+### História de Usuário 1: Matrícula em Disciplinas
 
 Como aluno,  
 Quero me matricular em disciplinas obrigatórias e optativas,  
@@ -12,7 +18,7 @@ Critérios de Aceitação:
 - O sistema deve notificar o aluno se alguma das disciplinas obrigatórias ou optativas estiver com o limite de vagas atingido.
 - Após a matrícula, o sistema deve confirmar o sucesso da operação e informar o aluno sobre as disciplinas nas quais foi matriculado.
 
-## História de Usuário 2: Cancelamento de Matrícula
+### História de Usuário 2: Cancelamento de Matrícula
 
 Como aluno,  
 Quero cancelar a matrícula em uma disciplina,  
@@ -23,7 +29,7 @@ Critérios de Aceitação:
 - O sistema deve atualizar a disponibilidade de vagas na disciplina cancelada.
 - O sistema deve notificar o aluno sobre o sucesso do cancelamento e atualizar o status da matrícula.
 
-## História de Usuário 3: Verificação de Disciplinas Ativas
+### História de Usuário 3: Verificação de Disciplinas Ativas
 
 Como administrador do sistema,  
 Quero verificar quais disciplinas têm pelo menos 3 alunos matriculados,  
@@ -34,7 +40,7 @@ Critérios de Aceitação:
 - O sistema deve incluir a opção de visualizar quais disciplinas foram canceladas devido à falta de alunos.
 - O sistema deve permitir ao administrador ver a quantidade de alunos matriculados em cada disciplina.
 
-## História de Usuário 4: Limite de Vagas em Disciplinas
+### História de Usuário 4: Limite de Vagas em Disciplinas
 
 Como aluno,  
 Quero ser informado quando uma disciplina atingir o limite máximo de 60 vagas,  
@@ -45,7 +51,7 @@ Critérios de Aceitação:
 - O sistema deve notificar o aluno se a disciplina estiver cheia no momento da tentativa de matrícula.
 - O sistema deve sugerir outras disciplinas ou opções se a escolha estiver indisponível.
 
-## História de Usuário 5: Notificação ao Sistema de Cobranças
+### História de Usuário 5: Notificação ao Sistema de Cobranças
 
 Como sistema de matrículas,  
 Quero notificar automaticamente o sistema de cobranças após a matrícula de um aluno,  
@@ -56,7 +62,7 @@ Critérios de Aceitação:
 - O sistema de cobranças deve registrar a matrícula e calcular o valor total devido pelo aluno.
 - O sistema deve gerar um recibo ou nota fiscal para o aluno após a matrícula.
 
-## História de Usuário 6: Acesso de Professores
+### História de Usuário 6: Acesso de Professores
 
 Como professor,  
 Quero acessar a lista de alunos matriculados em minhas disciplinas,  
@@ -67,7 +73,7 @@ Critérios de Aceitação:
 - O sistema deve garantir que o acesso seja restrito apenas às disciplinas que o professor leciona.
 - O sistema deve permitir ao professor visualizar detalhes básicos dos alunos, como nome e identificação.
 
-## História de Usuário 7: Autenticação de Usuários
+### História de Usuário 7: Autenticação de Usuários
 
 Como usuário do sistema (aluno, professor ou administrador),  
 Quero realizar o login usando uma senha,  
@@ -80,7 +86,8 @@ Critérios de Aceitação:
 
 Essas histórias de usuário ajudam a definir os requisitos e comportamentos esperados para o sistema de matrículas, garantindo que ele atenda às necessidades de alunos, professores e administradores. 
 
-# Diagrama de Caso de Uso v.1
+## Diagrama de Caso de Uso v.1
 
 ![Diagrama Caso de Uso v.1](../Lab01S01/image/DiagramaCasoDeUsoV1.jpg)
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>

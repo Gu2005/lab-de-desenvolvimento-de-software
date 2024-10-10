@@ -1,14 +1,20 @@
-# Sistema de Aluguel de Carros
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=header"/>
 
-Neste  laboratório, vamos projetar um sistema para apoio à gestão de aluguéis de automóveis que permita efetuar, cancelar e modificar pedidos através da Internet.
+<h1 align="center">
+    <br> Sistema de Aluguel de Carros
+</h1>
+
+## Contextualização
+
+O Sistema de Aluguel de Carros permite a gestão de aluguéis de automóveis online, com funcionalidades de cadastro, modificação, consulta e cancelamento de pedidos. Clientes gerenciam seus pedidos e agentes avaliam e aprovam contratos.
 
 ##  Objetivo do Projeto
 
-O projeto "Sistema de Aluguel de Carros" desenvolverá um software em Java para gerenciamento de aluguéis de veículos online, permitindo que clientes façam e modifiquem pedidos, e agentes os avaliem. O sistema armazenará dados de clientes e veículos, e poderá vincular contratos de crédito, seguindo a arquitetura MVC e dividindo-se em gestão de pedidos e geração de páginas web.
+Facilitar a gestão de pedidos de aluguel de carros pela internet, permitindo que clientes controlem seus pedidos e que agentes façam a análise e aprovação de contratos.
 
-## Linguagem
+## Linguagem e Arquiteturas
 
-O projeto será desenvolvido em Java e seguirá um processo de desenvolvimento estruturado, com entregas graduais e uma apresentação final comparando o protótipo com os requisitos iniciais.
+O sistema é desenvolvido em Java utilizando a arquitetura MVC, com dois subsistemas principais: gestão de pedidos e contratos, e construção dinâmica de páginas web.
 
 ## Divisão das Sprints
 
@@ -16,5 +22,6 @@ O projeto será desenvolvido em Java e seguirá um processo de desenvolvimento e
 
 - [Sprint 02](../Lab02/Lab02S02/)
 
-- [Sprint 02](../Lab02/Lab02S03/)
+- [Sprint 03](../Lab02/Lab02S03/)
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>

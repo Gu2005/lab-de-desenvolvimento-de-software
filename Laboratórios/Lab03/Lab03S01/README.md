@@ -1,4 +1,8 @@
-# Lab03S01
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=header"/>
+
+<h1 align="center">
+    <br> Sprint 01
+</h1>
 
 ## Histórias de Usuários
 
@@ -20,14 +24,16 @@ Como empresa parceira, desejo ser notificada por email quando um aluno realizar 
 
 ## Diagramas
 
-## Diagrama de Caso de Uso
+### Diagrama de Caso de Uso
 
 ![Diagrama de Caso de Uso](../Lab03S01/image/Diagrama_Caso_de_Uso.png)
 
-## Diagrama de Classes
+### Diagrama de Classes
 
 ![Diagrama de Classes](../Lab03S01/image/Diagrama_Classes.png)
 
-## Diagrama de Componentes
+### Diagrama de Componentes
 
 ![Diagrama de Componentes](../Lab03S01/image/Diagrama_Componentes.png)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>
