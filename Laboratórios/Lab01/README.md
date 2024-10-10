@@ -1,16 +1,20 @@
-# Sistema de Matríulas
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=header"/>
 
-Neste  laboratório,  vamos  projetar  um  Sistema  de  Matrículas  para  uma  Universidade. 
-Leia  atentamente  a  descrição  fornecida  pelo  Product  Owner  e  elabore  o  projeto 
-detalhado do sistema.
+<h1 align="center">
+    <br> Sistema de Matrículas
+</h1>
+
+## Contextualização
+
+Este projeto visa desenvolver um Sistema de Matrículas para informatizar a gestão acadêmica da universidade, permitindo o gerenciamento de cursos, disciplinas, professores e alunos, além da realização e cancelamento de matrículas pelos alunos dentro de períodos específicos.
 
 ##  Objetivo do Projeto
 
-Desenvolver uma plataforma sólida para a gestão automatizada de matrículas, simplificando o registro de disciplinas e cursos, agilizando o processo de inscrição e controle de matrículas, além de integrar com o sistema de pagamento.
+O sistema permitirá que a secretaria da universidade administre as disciplinas, cursos, professores e alunos, enquanto os alunos poderão efetuar e cancelar matrículas durante períodos determinados. O controle de número mínimo e máximo de alunos por disciplina será gerenciado, e o sistema se integrará ao sistema de cobranças da universidade. Professores poderão consultar a lista de alunos matriculados em suas disciplinas.
 
-## Linguagem
+## Linguagem e Arquiteturas
 
-O projeto será desenvolvido em PHP e seguirá um processo de desenvolvimento estruturado, com entregas graduais e uma apresentação final comparando o protótipo com os requisitos iniciais.
+O sistema será desenvolvido em PHP utilizando a arquitetura MVC, e dividido em três sprints, com entregas de modelagem UML, prototipagem e atualizações do sistema.
 
 ## Divisão das Sprints
 
@@ -21,3 +25,4 @@ O projeto será desenvolvido em PHP e seguirá um processo de desenvolvimento es
 * [Sprint 03](../Lab01/Lab01S03/)
 
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>
