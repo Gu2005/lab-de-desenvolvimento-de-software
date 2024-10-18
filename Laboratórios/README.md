@@ -46,6 +46,7 @@ Neste laboratório o Sistema de Moeda Estudantil promove o reconhecimento do mé
 
 - [Sprint 01](../Laboratórios/Lab03/Lab03S01/)
 
+- [Sprint 02](../Laboratórios/Lab03/Lab03S02/)
 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>
