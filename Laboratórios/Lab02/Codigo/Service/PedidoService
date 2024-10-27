@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+//Sugesto de melhoria
+//Incluir um método para atualizar o status de um pedido, pois isso é comum em sistemas de gerenciamento de pedidos.
 
 Service
 public class PedidoService {

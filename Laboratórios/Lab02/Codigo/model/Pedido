@@ -2,7 +2,9 @@ package codigo.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-
+//Sugestao de melhoria
+// Use a anotação @Table para especificar o nome da tabela no banco de dados. 
+//Fazer os getters e Setters dos atributos 
 Entity
 public class Pedido {
 

@@ -5,7 +5,9 @@ import java.util.List;
 
 Entity
 public class Cliente {
-    
+    //Sugestao de melhoria
+    // Use a anotação @Table para especificar o nome da tabela no banco de dados. 
+//Fazer os getters e Setters dos atributos 
     Id
     GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

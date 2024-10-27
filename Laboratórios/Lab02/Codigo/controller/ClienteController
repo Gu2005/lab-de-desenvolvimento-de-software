@@ -6,6 +6,11 @@ import java.sql.PreparedStatement;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+ //Sugestao de melhoria: 
+ //O  Controller deve ser responsável apenas pelo fluxo da requisição. Mova a lógica de acesso a dados para uma classe de serviço ou repositório.
+// Criar uma classe ClienteDTO para apresentar os dados do cliente. 
+// Fazer tratamento de erro com mensagens claras do que é o erro. 
+//Adicionar lógica de login e cadastro do cliente
 
 Controller
 public class ClienteController {

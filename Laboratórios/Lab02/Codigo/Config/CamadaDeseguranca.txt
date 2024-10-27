@@ -1,0 +1,2 @@
+O projeto não possui camada de segurança, isso pode expor o sistema a acessos não autorizados.
+Sugestao: Adicionar Spring Security para definir autenticação e autorização básica.
