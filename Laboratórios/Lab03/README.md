@@ -22,4 +22,6 @@ O sistema será desenvolvido em PHP, seguindo a arquitetura MVC, e contará com 
 
 [Sprint 02](../Lab03/Lab03S02/)
 
+[Sprint 03](../Lab03/Lab03S03/)
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=09738a&height=120&section=footer"/>
